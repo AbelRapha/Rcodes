@@ -9,9 +9,7 @@ starwars #Base de dados do starWars
 starwars %>%
   ggplot(aes(x=height)) +
   geom_histogram()
-<div>
-<img src = 'http://127.0.0.1:23832/graphics/dbf44f77-f155-4157-800d-6301b0f9842d.png'</img>
-</div>
+
 #Construindo grafico de densidade
 starwars %>%
   ggplot(aes(x = height))+
@@ -67,5 +65,4 @@ starwars %>%
   geom_hline(yintercept = 40, linetype = 'dashed')+
   geom_vline(xintercept = 120, linetype = 'dotted', color = "purple")
 
-  
   
