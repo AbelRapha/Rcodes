@@ -3,21 +3,15 @@ library(tidyverse)
   
 starwars #Base de dados do starWars
 
-#Especificando o eixo x
-
-starwars %>%
-  ggplot(aes(x = height))
-
-#especificando o eixo y
-starwars %>%
-  ggplot(aes(x = height, y = mass))
 
 #construindo o histograma apenas xom o eixo x
 
 starwars %>%
   ggplot(aes(x=height)) +
   geom_histogram()
-
+<div>
+<img src = 'http://127.0.0.1:23832/graphics/dbf44f77-f155-4157-800d-6301b0f9842d.png'</img>
+</div>
 #Construindo grafico de densidade
 starwars %>%
   ggplot(aes(x = height))+
