@@ -4,7 +4,7 @@ library(tidyverse)
 starwars #Base de dados do starWars
 
 
-#construindo o histograma apenas xom o eixo x
+#construindo o histograma apenas com o eixo x
 
 starwars %>%
   ggplot(aes(x=height)) +
